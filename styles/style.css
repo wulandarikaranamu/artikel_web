@@ -3,6 +3,9 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+.value {
+  text-align: justify;
+}
 h2 {
   color: #00a2c6;
 }

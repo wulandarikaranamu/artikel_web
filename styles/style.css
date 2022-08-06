@@ -2,6 +2,13 @@
 body {
   font-family: "Quicksand", sans-serif;
 }
+@media screen and (max-widht: 1000px) {
+  #content,
+  aside {
+    width: 500%;
+    padding: 10px;
+  }
+}
 
 .value {
   text-align: justify;
@@ -108,4 +115,9 @@ nav a:hover {
 
 div.a {
   text-align: center;
+}
+
+nav a:hover {
+  /* mengatur warna font saat mouse berada diatas elemen */
+  font-weight: bold;
 }

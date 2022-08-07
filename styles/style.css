@@ -75,12 +75,8 @@ nav a {
 }
 
 nav a:hover {
+  /* mengatur warna font saat mouse berada diatas elemen */
   font-weight: bold;
-}
-
-.featured-image {
-  width: 100%;
-  max-height: 800px;
 }
 
 .featured-image {
@@ -118,7 +114,11 @@ div.a {
   text-align: center;
 }
 
-nav a:hover {
-  /* mengatur warna font saat mouse berada diatas elemen */
-  font-weight: bold;
+.aside {
+  width: 30%;
+  padding: 15px;
+  margin: 15px;
+  float: none;
+  font-style: italic;
+  background-color: #ffffff;
 }

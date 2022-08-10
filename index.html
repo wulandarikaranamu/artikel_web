@@ -28,20 +28,20 @@
     <meta name="msapplication-square310x310logo" content="ico/mstile-310x310.png" />
     <title>Code Website</title>
     <!-- cara mengubungkan css dan html -->
-    <link rel="stylesheet" type="text/css" href="styles/style.css" />  
+    <link rel="stylesheet" type="text/css" href="asset/style.css" />  
   </head>
   <body>
     <header>
       <!-- menggunakan jumbotron -->
       <section class="jumbotron text-center">
-          <img src="img/diego.png" alt="Merry Wulandari" width="300" class="rounded-circle"/>
+          <img src="img/diego.png" alt="Merry Wulandari" width="300"/>
           <h1>Code Website</h1>
           <p>Learn The Basics of Website Programming, Become a Reliable Programmer</p>
       </section>
       <!-- menggunakan navbar -->
       <nav>
         <ul>
-          <li><a href="#web dasar">Web Dasar</a></li>
+          <li><a href="#website">Website</a></li>
           <li><a href="#front end">Front end</a></li>
           <li><a href="#contact person">Contact</a></li>
         </ul>
@@ -50,37 +50,40 @@
 
     <!--Emphasized text -->
     <!-- <p>Merry <em>lulus di Universitas Amikom Yogyakarta dalam program PMM angkatan 2</em></p> -->
+    <!-- menerapkan main, div, artikel dan section -->
     <main>
       <div id="content">
-        <article id="web dasar" class="card">
+        <article id="website" class="card">
         <article class="value">
           <section>
-            <h2>Web Dasar</h2>
-            <img src="img/web_dasar.jpg" class="featured-image" alt="Web Dasar" />
-            <aside>
+            <h2>Website</h2>
+            <img src="img/web_dasar.jpg" class="featured-image" alt="Website" />
             <p>
               Apa itu Website? <br />
-              Website adalah sebuah halaman yang menampilkan informasi berupa teks atau gambar. Website dapat diakses melalui internet menggunakan browser. Website ini unik karena tiap halaman dapat saling terhubung dengan menggunakan
-              hypertextlinks. Umumnya sebuah website memuat informasi yang disediakan secara perorangan, kelompok, atau organisasi. Semua informasi yang tersedia pada halaman website disimpan pada server.
-              <br />
-              <br />
+              Website adalah kumpulan halaman yang berisi informasi tertentu dan dapat diakses dengan mudah oleh siapapun, kapanpun, dan di manapun melalui internet.
               Website sudah berkembang sangat pesat. Sekarang, website digunakan tidak hanya untuk media berbagi informasi atau berita. Layaknya sebuah aplikasi pada komputer dan handphone kita, website dapat digunakan untuk komunikasi
-              secara real-time, mendengarkan sebuah lagu, bahkan photo editing sekarang dapat dilakukan pada sebuah website. Website sendiri merupakan teknologi yang sudah ada sejak 30 tahun silam. Tim Berners-Lee seorang ilmuwan Inggris
+              secara real-time, mendengarkan sebuah lagu, bahkan photo editing sekarang dapat dilakukan pada sebuah website. 
+              <br>
+              <br>
+              Website sendiri merupakan teknologi yang sudah ada sejak 30 tahun silam. Tim Berners-Lee seorang ilmuwan Inggris
               menemukan World Wide Web (WWW) pada tahun 1989 ketika ia bekerja di CERN (Conseil Européen pour la Recherche Nucléaire). Web awalnya dibuat dan dikembangkan untuk memenuhi permintaan dalam berbagi informasi secara otomatis
               antar ilmuwan di universitas dan lembaga di seluruh dunia. Web pertama di CERN didedikasikan sebagai web pertama di dunia. Selain itu, pada tahun 2013 CERN merilis “a project to restore this first ever website: info.cern.ch”
               untuk mengabadikan website pertama di dunia. Thank you CERN! Thank you Tim Berners-Lee!
+              <br>
+              <br>
+              Informasi Selengkapnya Bisa Anda Dapatkan di <cite><a href="https://www.niagahoster.co.id/blog/pengertian-website/">Apa itu Website ?</a></cite>
             </p>
-            </aside>
           </section>
         </article>
         </article>
-
+      </div>
+        
+      <div id="content">
         <article id="front end" class="card">
         <article class="value">
           <section>
             <h2 id="front end">Front end</h2>
             <img src="img/front_end.jpg" class="featured-image" alt="Front ened" />
-            <aside>
             <p>
               Pada dasarnya, front end adalah salah satu bagian dari website yang menampilkan tampilan pada para pengguna. Bagian ini dibuat dengan menggunakan HyperText Markup Language (HTTP), Cascading Style Sheets (CSS), dan juga
               JavaScript. Sehingga, suatu URL bisa bekerja dan menampilkan situs website dengan baik. Berdasarkan laman Career Foundry, front end developer adalah mereka yang memiliki tanggung jawab dalam menghubungkan suatu situs website
@@ -91,10 +94,8 @@
               Front end adalah suatu hal yang tidak dibuat dengan merancang desain dari suatu situs ataupun aplikasi dari nol. Karena, pada dasarnya hal tersebut sudah dikerjakan oleh UI designer.Tugas front end adalah memindahkan desain
               yang dibuat oleh UI designer dalam bentuk yang lebih interaktif dan membuat desain tersebut menjadi lebih hidup. Nah, untuk membuat suatu situs website atau aplikasi, maka dibutuhkan juga seorang back end developer. Tugas
               mereka adalah memastikan semua hal yang dibuat oleh front end developer ataupun sistem dan server dibalik dibuatnya situs website atau aplikasi bisa bekerja sebagaimana mestinya. Mereka juga sering disebut dengan server-side.
-            </p>
-            </aside>
-
-            <p>
+              <br>
+              <br>
               Informasi Selengkapnya Bisa Anda Dapatkan di <cite><a href="https://accurate.id/teknologi/front-end-adalah/">AccuratTeknologi</a></cite>
             </p>
           </section>
@@ -142,27 +143,24 @@
           </table>
         </a>
 
-      <div class="content">
+        <!-- menerapkan aside, dan ficaption -->
         <div class="a">
           <aside>
             <article class="profil">
               <header>
-                <h2>Pemilik Artikel</h2>
-                <p>Merry Wulandari Front end WeB Developer</p>
+                <div>
+                <h2>Code Website</h2>
+                <p>Merry Wulandari Mahasiswa Teknik Informatika</p>
+                <img src="img/beatiful.png" alt="merry" width="200px" />
+                </div>
               </header>
-              <section>
-                <figure>
-                  <img src="img/beatiful.png" alt="merry" width="200px" />
-                  <figcaption>profil</figcaption>
-                </figure>
-              </section>
+                <figcaption>Profil</figcaption>
             </article>
           </aside>
         </div>
-      </div>
-    </a>
     </main>
 
+    <!-- menerapkan <br> pada website -->
     <article id="informasi lainnya" class="card">
     <article class="value">
     <h3 id="informasi lainnya">Informasi Lainnya</h3>
@@ -176,10 +174,13 @@
     </article>
     </article>
     <br>
+
+    <!-- footer atau catatan kaki website -->
     <footer>
       <p align="center">Belajar Dasar Pemprograman Web &copy; 2022, Merry Wulandari</p>
     </footer>
-     <!---mencoba menerapkan JS--->
-     <script src="script.js"></script>
+    
+     <!---mencoba menerapkan JS/cara menghubungkan JS dengan HTML--->
+     <script src="javaScript/artikel.js"></script>
   </body>
 </html>
